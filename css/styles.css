@@ -1,0 +1,237 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Visuales
+5. Otros
+
+mobile:
+min-width: 235px;
+max-width: 500px;
+*/ 
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+    background-color: var(--Light-grayish-blue);
+}
+.main__container {
+    width: 100%;
+}
+.main__container-article {
+    width: 100%;
+    height: auto;
+}
+.main__container-article .main__container-article--card {
+    width: 90%;
+    min-width: 235px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+/*daniel card*/
+.--tittle-container {
+    display: flex;
+}
+.card-1 .daniel img{
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid hsla(264, 82%, 70%, 1);
+    border-radius: 100%;
+}
+.card-1 .daniel h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: var(--White);
+}
+.card-1 .daniel span {
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    opacity: 0.5;
+}
+.main__container-article .card-1 h3 {
+    margin: 18px 0 16px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--White);
+}
+.main__container-article .card-1 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--White);
+    opacity: 0.7;
+}
+/*Jonathan card*/
+.card-2 .jonathan img{
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+.card-2 .jonathan h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: var(--White);
+}
+.card-2 .jonathan span {
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    opacity: 0.5;
+}
+.main__container-article .card-2 h3 {
+    margin: 18px 0 16px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--White);
+}
+.main__container-article .card-2 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--White);
+    opacity: 0.7;
+}
+/*Jeanette card*/
+.card-3 .jeanette img{
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+.card-3 .jeanette h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: var(--Very-dark-grayish-blue);
+}
+.card-3 .jeanette span {
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    opacity: 0.5;
+}
+.main__container-article .card-3 h3 {
+    margin: 18px 0 16px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--Very-dark-grayish-blue);
+}
+.main__container-article .card-3 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Very-dark-grayish-blue);
+    opacity: 0.7;
+}
+/*Patrick Abrams*/
+.card-4 .patrick img{
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+.card-4 .patrick h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: var(--White);
+}
+.card-4 .patrick span {
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    opacity: 0.5;
+}
+.main__container-article .card-4 h3 {
+    margin: 18px 0 16px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--White);
+}
+.main__container-article .card-4 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--White);
+    opacity: 0.7;
+}
+/*Kira Whittle*/
+.card-5 .kira img{
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+.card-5 .kira h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: var(--Very-dark-grayish-blue);
+}
+.card-5 .kira span {
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    opacity: 0.5;
+}
+.main__container-article .card-5 h3 {
+    margin: 18px 0 16px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--Very-dark-grayish-blue);
+}
+.main__container-article .card-5 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Very-dark-grayish-blue);
+    opacity: 0.7;
+}
+
+
+.main__container-article .card-1{
+    margin-top: 50px;
+    background-color: var(--Moderate-violet);
+}
+.main__container-article .card-2 {
+    background-color: var(--Very-dark-grayish-blue);
+}
+.main__container-article .card-3, .card-5 {
+    background-color: var(--White)
+}
+.main__container-article .card-4 {
+    background-color: var(--Very-dark-blackish-blue);
+}
