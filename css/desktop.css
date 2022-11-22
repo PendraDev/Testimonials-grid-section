@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .main__container {
     width: 100%;
     margin: 0 auto;
@@ -22,10 +28,6 @@
 .main__container .item-5 {
     grid-column: 4 / 5;
     grid-row: 1 / 3;
-}
-.main__container .item-1, .item-2, .item-5
-{
-    margin-top: 75px;
 }
 
 .main__container-article  .card-1{
