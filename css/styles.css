@@ -37,6 +37,12 @@ body {
     width: 100%;
     height: auto;
 }
+.main__container .main__container-article .card-1 {
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-size: 104px 104px;
+    background-repeat: no-repeat;
+    background-position: left 80% bottom 100%;
+}
 .main__container-article .main__container-article--card {
     width: 90%;
     min-width: 235px;
